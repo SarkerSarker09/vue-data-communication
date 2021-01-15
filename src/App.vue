@@ -2,12 +2,11 @@
   <div>
     <md-card>
       <md-card-header>
-        <div class="md-title">Material Design With Vue.js Demo</div>      
+        <div class="md-title">Vue JS Data Communication Example</div>      
       </md-card-header>
       <md-card-content>     
         
-             <sample-table /> 
-        <sample/>
+          
         <parent />
 
       </md-card-content>
@@ -17,18 +16,13 @@
 
 <script>
   
-import Sample from './components/Sample.vue'
-import SampleTable from './components/SampleTable.vue'
 import Parent from './components/data-communication/Parent.vue'
-
-  export default {
+export default {
     name: 'app',
     components: {          
-        Sample,
-        SampleTable,
         Parent,
     }    
-  }
+}
 </script>
 
 <style>
